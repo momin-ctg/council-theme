@@ -1,0 +1,42 @@
+/*All Font Face*/
+
+@font-face {
+    font-family:'Futura Oblique';
+    src: url('../fonts/FuturaStd-BoldOblique.eot');
+    src: url('../fonts/FuturaStd-BoldOblique.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaStd-BoldOblique.woff2') format('woff2'),
+    url('../fonts/FuturaStd-BoldOblique.woff') format('woff'),
+    url('../fonts/FuturaStd-BoldOblique.svg#FuturaStd-BoldOblique') format('svg');
+    font-weight: 700;
+    font-style: oblique;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Futura Book';
+    src: url('../fonts/../fonts/FuturaStd-Book.eot');
+    src: url('../fonts/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaStd-Book.woff2') format('woff2'),
+    url('../fonts/FuturaStd-Book.woff') format('woff'),
+    url('../fonts/FuturaStd-Book.svg#FuturaStd-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+
+
+@font-face {
+    font-family:'Avenir';
+    src: url('../fonts/AvenirLTStd-Black.eot');
+    src: url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+    url('../fonts/AvenirLTStd-Black.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}

@@ -1,0 +1,77 @@
+@import url('fonts.css');
+
+body {
+    background: #161924;
+    font-family: 'Avenir', 'Futura  Book', 'Futura Oblique', sans-serif;
+}
+
+.top_nav ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.top_nav li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.top_nav a {
+    color: #ffffff;
+    font-family:'Avenir', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* =================================
+    Bottom Navigation
+   ================================= */
+.player_nav ul{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.player_nav li{
+    list-style:none;
+    float: left;
+    
+}
+.player_nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family:"Futura Std", sans-serif;
+}
+
+.bottom_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.nav_item a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Futura Std", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom:10px;
+}
+
+.nav_item a:hover{
+    border-bottom: 2px solid #f8981d;
+}
+
+
+.main_footer small{
+    font-size: 10px;
+    color: #ffffff;
+}
+
+
+
+
+
+
